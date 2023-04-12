@@ -1,0 +1,242 @@
+<!doctype html>
+<!--browser knows html sheet 
+-->
+<html lang="en">
+
+<head>
+
+  <script defer src="assets/test.js"> </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Stops Pixelation on other devices-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!--Montserat-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+    <link href="Css/stylehome.css" rel="stylesheet" id="swap">
+
+    <link rel="stylesheet" href="https://use.typekit.net/pfg3eqm.css">
+
+
+    <title>Dayna Brislane</title>
+
+
+</head>
+
+
+
+
+<body>
+    <!--////////Top Navigation////////////
+////////////////////////////////////////////////////*/-->
+    <div class="container-fluid overflow">
+        <div class="row hide-when-small">
+
+            <div id="navbar" class="topnav">
+
+
+
+                <!-- Centered link -->
+                <div class="topnav-centered">
+                    <a href="#home.html" class="active">Dayna</a>
+                </div>
+
+
+
+                <!-- Right-aligned links -->
+                <div class="topnav-right">
+                    <a href="work.html">Work</a>
+                    <a href="aboutme.html">About</a>
+                    <a href="stuff.html">Stuff</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class=container-fluid>
+        <div id="myNav" class="overlay smallbar d-block d-sm-block d-md-none">
+            <div class="overlay-content">
+                <a href="home.html">
+                    <div class="menubutton">Home</div>
+                </a>
+                <a href="work.html">
+                    <div class="menubutton">Work</div>
+                </a>
+                <a href="aboutme.html">
+                    <div class="menubutton">About</div>
+                </a>
+                <a href="">
+                    <div class="menubutton">Stuff</div>
+                </a>
+                <button><img src="Assets/pinkdot.png" href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                </button>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="menu burger">
+                <div onclick="openNav()">
+                    <h4 class="navh4">Dayna</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Disappearing Reappearing Scroll-->
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-70px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+    </script>
+    
+      <canvas id='canvas'></canvas>
+     
+     <div class="layer">
+        <span id='info'><p class="hiim">HI I'M</p>
+        <p  class="info2">DAYNA</p><p class="click">Click and drag to draw</p></span>
+      </div>
+   
+    
+    
+    
+<div class="margin">
+<div class="spacer"></div>
+
+<div class="spacer"></div>
+<div class="spacer2"></div>
+  
+<div class="container-fluid workpg firstdiv">
+            
+              <a href="x.html">
+                    <div class="menubutton2">Product</div>
+                </a>
+                <a href="x.html">
+                    <div class="menubutton3">Graphic</div>
+                </a>
+                
+                <a href="x.html">
+                    <div class="menubutton3">Bits n Bobs</div>
+                </a>
+             <div class="blueline"></div>
+        <div class="row">
+        
+                 <div class="col-md-6 col-lg-6">
+                
+                
+  
+
+                <a href="tutor.html"><img class="mimthumb" src="Assets/Homeassets/cover.png"></a>
+                   
+                    <div class="wlabel">TUTOR ORIEL</div>
+                   <div class="wcap">For this project I had to identify issues with an existing tutoring service and devise a redesign based on testing and research. </div>
+                   <button type="button" class="btntag">Research</button>
+                    
+            
+               <button type="button" class="btntag">UX</button>
+                    
+                     <button type="button" class="btntag">UI</button>
+                       <button type="button" class="btntag">Product Design</button>
+            </div>
+           
+            <div class="col-md-6 col-lg-6">
+                
+                
+
+                <a href="reprise.html"><img class="mimthumb" src="Assets/Homeassets/Cover2.gif"></a>
+                   
+                   <div class="wlabel">REPRISE</div>
+                    <div class="wcap">I had to identify an issue in society and solve it. I chose to tackle the issue of isolation in older demographics by hosting a disco for over 50's. </div>
+                
+                   <button type="button" class="btntag">UX</button>
+                    
+            
+               <button type="button" class="btntag">UI</button>
+                    
+                     <button type="button" class="btntag">Branding</button>
+                      
+                       <button type="button" class="btntag">Photography</button>
+                       
+                       
+            </div>
+           
+                    
+               
+            </div>
+            
+            
+            <div class="row">
+           <div class=" offset-sm-0  col-md-6 col-lg-6">
+               
+                <a href="lockedout.html"><img class="mimthumb" src="Assets/Homeassets/3round.png"></a>  
+                 <div class="wlabel">BEO</div>
+                 <div class="wcap">Coming Soon!  </div>
+                   <button type="button" class="btntag">Motion Design</button>
+                    
+            
+               <button type="button" class="btntag">Branding</button>
+                    
+                     <button type="button" class="btntag">Photography</button>
+                      
+                       <button type="button" class="btntag">Logo Design</button>
+                       
+            </div>
+           
+           
+
+              <div class="col-md-6 col-lg-6">
+                
+                
+
+                <a href="operaposter.html"><img class="mimthumb" src="Assets/Homeassets/Frame%2014.png"></a>
+                   
+                   <div class="wlabel">NYT APP FEATURE</div>
+                 <div class="wcap">Also coming soon! </div>
+                   <button type="button" class="btntag">Branding</button>
+                    
+            
+               <button type="button" class="btntag">Photography</button>
+                    
+                     <button type="button" class="btntag">Editorial</button>
+                       
+            </div>
+               
+            
+
+</div>
+
+</body>

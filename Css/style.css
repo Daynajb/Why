@@ -1,0 +1,757 @@
+/*********************Navigation*********************************************************************************/
+body {
+    background-color: #1E1D1D;
+    margin: 0;
+}
+
+button {
+    background-color: #1E1D1D;
+    border: none;
+}
+
+.topnav {
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    border-bottom: 1px solid #f2f2f2;
+
+    position: fixed;
+    overflow: hidden;
+    background-color: #1E1D1D;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #1E1D1D, 100%, ;
+    font-family: 'Montserrat', sans-serif;
+
+    display: block;
+}
+
+.topnav a:hover {
+
+    color: #67C7F1;
+}
+
+.topnav a.active {
+    background-color: #1E1D1D,
+        color: #f6f6f6;
+}
+
+.topnav-centered a {
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.topnav-right {
+    float: right;
+    font-size: 20px;
+    font-weight: 400;
+    color: #f6f6f6;
+    margin-right: 40px;
+}
+
+
+
+
+
+/*Responsive Nav//
+///////////////////////////////////////////////////////////*/
+
+
+.smallbar {
+    background-color: #1E1D1D;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+/*Home page*/
+/*//////////////////////////////////////////////////////////*/
+
+.intro {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+
+    text-decoration: none;
+    background-color: #1E1D1D, 100%, ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    display: block;
+}
+
+.spacer {
+    height: 12.5rem;
+    display: flex;
+}
+
+.spacer2 {
+    height: 125px;
+    display: flex;
+}
+
+.spacer3 {
+    height: 18.5rem;
+    display: flex;
+}
+
+
+.spacer4 {
+    height: 490px;
+    display: flex;
+}
+.mimthumb {
+    width: 100%;
+    /*padding-right: 50px;*/
+    padding-top: 50px;
+    /*float: right;*/
+
+
+}
+
+.wlabel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #e6e6e6;
+
+}
+
+.wcap {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #e6e6e6;
+    font-weight: 200;
+
+    padding-bottom: 15px;
+}
+
+.margin {
+    margin: 50px;
+}
+
+.btntag {
+    font-family: 'IBM Plex Mono', monospace;
+    border: none;
+
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ /*   font-size:1rem;*/
+       font-size:20px;
+    margin: 1px 1px;
+    cursor: pointer;
+
+    color: #67C7F1;
+    ;
+    border: 1px solid #67C7F1;
+    ;
+    float: left;
+    margin-right: 5px;
+    font-weight: 300;
+}
+
+.btntag2 {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: #e5e5e5;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1px 1px;
+    cursor: pointer;
+    background-color: #e5e5e5;
+    color: black;
+    border: 1px solid #555555;
+    float: left;
+    margin-right: 5px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+
+/*WORKPAGES*/
+
+.titles {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: #67C7F1;
+    font-weight: 600;
+    font-size: 64px;
+
+
+}
+
+/*Pink dots for project page; date solo length etc*/
+
+.pinkdota2 {
+    padding-bottom: 6px;
+    padding-right: 6px;
+    max-width: 23px;
+
+}
+
+.pinkdotb2 {
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-left: 5px;
+    max-width: 30px;
+
+}
+
+.pinkdotc2 {
+    padding-bottom: 6px;
+    padding-right: 4px;
+    padding-left: 5px;
+    max-width: 26px;
+
+}
+
+
+.subhead {
+    font-family: 'IBM Plex Mono', sans-serif;
+    color: #e6e6e6;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.subheadtag {
+    margin: 55px;
+}
+
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 300;
+    font-size: 20px;
+        max-width: 95%;
+
+}
+
+.coverimg2 {
+    max-width: 100%;
+    margin-top: 120px;
+
+}
+
+
+.coverimgsm {
+    max-width: 00%;
+    margin-top: 0px;
+    visibility: hidden;
+    max-height: 00%;
+
+
+}
+
+
+/*div.scrollmenu {
+
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+ 
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+ 
+}*/
+
+.scrollim{
+    max-height:80vh;
+    padding-right: 15px;
+     padding-right: 0px;
+    
+    
+
+}
+
+
+.list-group{padding-top: 50px;}
+
+.list-group-item {
+    font-family: 'IBM Plex Mono', monospace;
+    background: #1E1D1D;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #67C7F1;
+     position: relative;
+border: 0px solid rgba(0,0,0,.125);
+    float: left;
+    padding-left:0px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+
+.list-group-item-action.active{
+    
+    background: #1E1D1D;
+    border: 1px solid #67C7F1;
+     color: #67C7F1;
+    border-radius: 0px;
+}
+
+
+/*Content*/
+
+.number{   font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 700;
+    font-size: 103px;
+    position: absolute;
+    margin-right: 35px;
+}
+
+.question{   font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 600;
+    font-size: 64px;
+    position: relative;
+    padding-top: 15px;
+    padding-left: 35px;
+}
+
+.qlabel{
+      font-family: 'IBM Plex Mono', monospace;
+    color: #e6e6e6;
+    font-weight: 300;
+    font-size: 20px;
+     position: relative;
+    margin-top: -38px;
+    padding-left: 35px;
+}
+
+.line{height: 1px;
+    color: #e6e6e6;
+   /* width:96%;*/
+
+    background-color: #e6e6e6;  
+    
+}
+
+.subheadA{ font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 30px;}
+
+.captionA{ font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 200;
+    font-size: 20px;
+  padding-left:00px;
+   /* max-width: 96%;*/
+}
+
+.captionend{ font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 200;
+    font-size: 20px;
+
+   /* max-width: 96%;*/
+}
+
+
+.image{
+padding:0px;}
+
+
+
+.imagenext{
+    
+  
+   /* margin-left: 70%;*/
+}
+
+.footspacer {
+    height: 30px;
+    display: flex;
+}
+
+.footerline {
+    height: 1px;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.insta {
+    font-weight: 100;
+    font-size: 1rem;
+    color: #e6e6e6;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    line-height: 2rem;
+    padding-left: 30px;
+    float: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.email {
+    font-weight: 100;
+    font-size: 1rem;
+    color: #e6e6e6;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    display: inline-block;
+    line-height: 2rem;
+
+
+}
+
+.linkedin {
+    font-weight: 100;
+    font-size: 1rem;
+    color: #e6e6e6;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    float: right;
+    text-align: right;
+
+
+    line-height: 2rem;
+    /*padding-top: 390px;*/
+}
+
+.footlink {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+
+.footlink2 {
+    display: inline-block;
+ padding-bottom: 30px;
+}
+
+.alignleft {
+    float: left;
+    width: 25%;
+    text-align: left;
+
+}
+
+.aligncenter {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.alignright {
+    float: left;
+    width: 25%;
+    text-align: right;
+
+}
+
+/************************************************MEDIA QUERIES *********************** ***********************************************/
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 800px) {
+
+    .topnav a,
+    .topnav-right {
+        float: none;
+        display: block;
+    }
+
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    
+    .hide-when-big {
+        display: block;
+
+    }
+
+
+    .hide-when-small {
+        display: none;
+    }
+
+
+   
+
+    .burger {
+        position: fixed;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-left: 47vw;
+        padding-right: 47vw;
+        z-index: 1;
+        background-color:#1E1D1D; 
+       
+    }
+
+   
+
+    .overlay {
+        height: 0%;
+        width: 100vw;
+        margin-left: -15px;
+        position: fixed;
+        z-index: 2;
+        overflow-x: hidden;
+        transition: 0.5s;
+        border-style: solid;
+        border-width: 0px 0px 1px 0px;
+        margin-top: -2px;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        margin-top: 14px;
+        color: #1E1D1D;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    .navh4{
+       
+    color: #f2f2f2;
+    text-align: center;
+   /* padding: 14px 16px;*/
+    text-decoration: none;
+    background-color: #1E1D1D, 100%, ;
+    font-family: 'Montserrat', sans-serif;
+justify-content: center;
+    display: block;
+        margin-left: -20px;
+        margin-top: 5px;
+        
+        
+    }
+
+    .overlay a {
+        padding: 5px;
+        text-decoration: none;
+        font-size: 27px;
+        color: #e6e6e6;
+        display: block;
+        transition: 0.3s;
+          font-family: 'Montserrat', sans-serif;
+    }
+    
+    .closebtn{
+        margin-top: 20px;
+        max-height: 30px;}
+}
+
+
+@media screen and (max-width: 1200px) {
+    [data-nc-base="mobile-bar"] {
+        display: block !important;
+    }
+
+    .Header-nav--primary {
+        display: none !important;
+    }
+
+    .Header--top {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+   
+    .titles {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: #67C7F1;
+    font-weight: 600;
+        font-size: 64px;}
+    
+.description {
+    font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 300;
+    font-size: 16px;
+        max-width: 95%;
+
+}
+    .question{   font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 600;
+    font-size: 50px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+    
+    .qlabel{
+      font-family: 'IBM Plex Mono', monospace;
+    color: #e6e6e6;
+    font-weight: 300;
+    font-size: 20px;
+     position: relative;
+    margin-top: -20px;
+    padding-left: 34px;
+}
+
+
+}
+
+    
+    
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .margin {
+        margin: 10px;
+    }
+
+    .wcap {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        color: #e6e6e6;
+        font-weight: 200;
+
+        padding-bottom: 15px;
+    }
+
+    .titles {
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #67C7F1;
+        font-weight: 600;
+        font-size: 50px;
+
+
+    }
+
+    .pinkdota2 {
+        padding-bottom: 6px;
+        padding-right: 6px;
+        max-width: 23px;
+
+    }
+
+    .pinkdotb2 {
+        padding-bottom: 6px;
+        padding-right: 8px;
+        padding-left: 5px;
+        max-width: 30px;
+
+    }
+
+    .pinkdotc2 {
+        padding-bottom: 6px;
+        padding-right: 4px;
+        padding-left: 5px;
+        max-width: 26px;
+
+    }
+
+
+
+    .subhead {
+        font-family: 'Montserrat', sans-serif;
+        color: #e6e6e6;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .subheadtag {
+        margin: 55px;
+    }
+
+    .description {
+        font-family: 'Montserrat', sans-serif;
+        color: #e6e6e6;
+        font-weight: 400;
+        font-size: 16px;
+        max-width: 100%;
+
+    }
+    
+  
+    .coverimgsm {
+        max-width: 100%;
+        margin-top: -60px;
+        visibility: visible;
+        padding: 0;
+        
+
+    }
+
+
+
+    .coverimg2 {
+        max-width: 0%;
+        margin-top: 0px;
+        visibility: hidden;
+
+    }
+ 
+
+    .coverimg{ margin-top: -200px;}
+    
+    
+    /*Content*/
+
+.number{   font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 700;
+    font-size: 103px;
+    position: absolute;
+    margin-right: 35px;
+}
+
+.question{   font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.qlabel{
+      font-family: 'IBM Plex Mono', monospace;
+    color: #e6e6e6;
+    font-weight: 300;
+    font-size: 16px;
+     position: relative;
+    margin-top: -20px;
+    padding-left: 85px;
+}
+
+}
+}
+
+/*

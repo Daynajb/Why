@@ -1,0 +1,380 @@
+<!doctype html>
+<!--browser knows html sheet 
+-->
+<html lang="en">
+
+<head>
+<script defer src="assets/leftnav.js"> </script>
+
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Stops Pixelation on other devices-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!--Montserat-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+    <link href="Css/style.css" rel="stylesheet" id="swap">
+
+    <link rel="stylesheet" href="https://use.typekit.net/pfg3eqm.css">
+
+
+    <title>Dayna Brislane</title>
+
+
+</head>
+
+
+
+
+<body>
+    <!--////////Top Navigation////////////
+////////////////////////////////////////////////////*/-->
+    <div class="container-fluid overflow">
+        <div class="row hide-when-small">
+
+            <div id="navbar" class="topnav">
+
+
+
+                <!-- Centered link -->
+                <div class="topnav-centered">
+                    <a href="#home.html" class="active">Dayna</a>
+                </div>
+
+
+
+                <!-- Right-aligned links -->
+                <div class="topnav-right">
+                    <a href="work.html">Work</a>
+                    <a href="aboutme.html">About</a>
+                    <a href="stuff.html">Stuff</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class=container-fluid>
+        <div id="myNav" class="overlay smallbar d-block d-sm-block d-md-none">
+            <div class="overlay-content">
+                <a href="home.html">
+                    <div class="menubutton">Home</div>
+                </a>
+                <a href="work.html">
+                    <div class="menubutton">Work</div>
+                </a>
+                <a href="aboutme.html">
+                    <div class="menubutton">About</div>
+                </a>
+                <a href="">
+                    <div class="menubutton">Stuff</div>
+                </a>
+                <button><img src="Assets/pinkdot.png" href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                </button>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="menu burger">
+                <div onclick="openNav()">
+                    <h4 class="navh4">Dayna</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Disappearing Reappearing Scroll-->
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-70px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+        
+        
+    </script>
+    
+    <div class="margin">
+      
+      
+       <div class="cover" >
+      
+       
+        <div class="row">
+         <div>
+       <div class="coverimg" ><img class="coverimgsm" src="Assets/tutassets/cover.png"></div>
+        
+            </div>
+       
+        <div class="col-lg-6" >
+        <p class="titles">TUTOR ORIEL</p>
+        
+    
+        
+          <div class="subheadtags">
+        
+                <h2 class="subhead"><img class="pinkdota2" src="Assets/pinkdot.png">09/2022
+                    <img class="pinkdotb2" src="Assets/pinkdot.png">Solo Project <img class="pinkdotc2" src="Assets/pinkdot.png">
+                   8 weeks
+                </h2>
+
+            </div>
+            
+    <p class="description">For this project we were given a very poorly designed website for an online tutoring service. The site was poorly organized, the sign up flow was frustrating and the design was rudimentary and gave an untrustworthy feel to the brand. My job was to analyse the site, make note of industry norms, research my users, create prototypes, test those prototypes in interview and synthesise until I had a proposal for how the site could be designed to work better.</p>  <button type="button" class="btntag">Research</button>
+                    
+            
+               <button type="button" class="btntag">UX</button>
+                    
+                     <button type="button" class="btntag">UI</button>
+                       <button type="button" class="btntag">Product Design</button>
+       
+       </div>
+        
+        <div class="col-lg-6" >
+       <div class="coverimg" ><img class="coverimg2" src="Assets/tutassets/cover.png"></div>
+        
+            </div>
+         </div>
+        
+        
+    </div>  
+    
+    <!--CONTENT-->
+    <div class="spacer3"></div>
+    <!--Spy scroll-->
+     <div class="row">
+    <div class="col-2">
+   
+    <div id="list-example" class="list-group">
+  <a class="list-group-item list-group-item-action" href="#list-item-1">Investigation</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-2">Ideation</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-3">Testing</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-4">Product</a>
+  
+</div></div>
+
+
+<div class="col-lg-10">
+<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+ 
+ 
+ 
+ 
+ 
+  <div id="list-item-1"> <div>
+  <div> <p class="number">01</p> <p class="question offset-1">WHAT IS WRONG WITH THE SITE?</p>
+  <p class="qlabel offset-1">Investigation</p>
+  </div>
+  <div class="line"></div>
+  
+    <div class="spacer2"></div>
+   <p class="subheadA">01 INITIAL ANNOTATION</p>
+     <p class="captionA col-11">I did a heuristic analysis according to the Nielson Norman Group’s 10 Usability Heuristics for User Interface Design to assess the state of the current site and break down the usability problems. The site scored poorly in each heuristic. 
+</p>
+ 
+    <div><img class="image col-11" src="Assets/tutassets/tut1.png"></div>
+    <div class="spacer3"></div>
+       <p class="subheadA">02 HEURISTIC ANALYSIS:</p>
+    <div><img class="image col-12" src="Assets/tutassets/tut2.png"></div>
+     <div class="spacer3"></div>
+         <p class="subheadA">03  IDENTIFYING KEY ISSUES</p>
+     <div><img class="image col-12" src="Assets/tutassets/tut3.png"></div>
+      <div class="spacer3"></div>
+        <p class="subheadA">04 ADJACENT INDUSTRY AUDIT</p> <p class="captionA col-11">
+I looked at competitors UX processes in my key issue areas to understand how other companies were tackling these issues. This research informed by system design.
+
+</p>  <div><img class="image col-9" src="Assets/tutassets/tut4.png"></div>
+    
+     <div class="spacer3"></div></div></div>
+
+
+  
+  
+  
+  
+  
+
+  <div id="list-item-2">Item 2
+  <div> <p class="number">02</p> <p class="question offset-1">HOW CAN IT BE FIXED?</p>
+  <p class="qlabel offset-1">Ideation</p>
+  </div>
+  <div class="line"></div>
+  
+  <div class="spacer2"></div>
+  <p class="subheadA">05 LOW FIDELITY</p>
+  
+  <img class="image col-12" src="Assets/tutassets/tut5.png">
+   <div class="spacer3"></div>
+   <p class="subheadA">06 MID FIDELITY</p>
+  <img class="image col-12" src="Assets/tutassets/tut6.png">
+  <div class="spacer3"></div>
+  <p class="subheadA">07  PERSONAS AND JOURNEY MAPS </p>
+  <img class="image col-12" src="Assets/tutassets/tut7.png">
+  
+  <div class="spacer3"></div></div>
+  
+  
+  
+  
+  
+  <div id="list-item-3">Item 3
+<div> <p class="number">03</p> <p class="question offset-1">WHICH SOLUTION WILL WORK??</p>
+  <p class="qlabel offset-1">Testing</p>
+  </div>
+  <div class="line"></div>
+  
+   <div class="spacer2"></div>
+  <p class="subheadA">08 USERS</p> 
+  <img class="image col-12" src="Assets/tutassets/tut9.png">
+   <div class="spacer3"></div>
+  
+  <p class="subheadA">09 ANNOTATING + SYNTHESISING FEEDBACK</p>
+  <img class="image col-12" src="Assets/tutassets/tut11.png">
+    <div class="spacer3"></div></div>
+
+
+
+
+
+
+
+  <div id="list-item-4">Item 4
+  
+  
+<div> <p class="number">04</p> <p class="question offset-1">WHAT IS THE SOLUTION?</p>
+  <p class="qlabel offset-1">Prototype</p>
+  </div>
+  <div class="line"></div>
+   <div class="spacer2"></div>
+   <img class="image col-12" src="Assets/tutassets/tut12.png">
+   <div class="spacer3"></div>
+   
+   <p class="subheadA">THE OUTCOME</p>
+   
+   <p class="captionA col-11">
+I designed a website with a system that was much clearer and more functional than the initial product. Users could now browse the site before being requested to sign up or pay for classes that they didn’t understand. I also devised a student portal so that students could organsise their classes, schedule, homework, notes and correspondance.
+
+</p>  <div class="spacer2"></div>
+ <div class="row">
+ <div class="col-5">
+  <p class="subheadA">LESSONS</p>
+   
+   <p class="captionend"><img class="pinkdotb2" src="Assets/pinkdot.png">
+With the time constraints of this project I had to chose only three main areas to focus on fixing. 
+ </p> <p class="captionend"><img class="pinkdotb2" src="Assets/pinkdot.png">
+Unexpected insights arose during my testing around preferences and expectations. This led me to design too many complex solutions. I found I had to reign myself in and refine my designs.
+</p> 
+ </div><div class="col-5 offset-1">
+   <p class="subheadA">FUTURE STEPS</p>
+
+   <p class="captionend"><img class="pinkdotb2" src="Assets/pinkdot.png">
+I would like to create a mobile version of this site. 
+</p>
+   <p class="captionend"><img class="pinkdotb2" src="Assets/pinkdot.png">
+I would like to address the other problem areas that could not be addressed due to time constraints
+</p> </div>
+  </div>
+     <div class="spacer3"></div>
+   </div>
+  
+
+   <div>
+    
+  <p class="subheadA offset-8 col-4">NEXT</p>
+       <img class="imagenext offset-8 col-4" src="Assets/tutassets/3round.png">
+       <p class="subheadA offset-8 col-4">BEO</p>
+             <div class="offset-8 col-4">
+              <button type="button" class="btntag ">UX</button>
+                    
+            
+               <button type="button" class="btntag">UI</button>
+                    
+                     <button type="button" class="btntag">Branding</button>
+                      
+                       <button type="button" class="btntag">Photography</button></div>
+       </div>
+      <div class="spacer3"></div>
+       
+        </div>
+   
+   
+    </div>
+   
+   </div>
+    
+     <!--CONTENT-->
+
+   
+   
+
+   
+   
+     </div>
+       
+        <div class="container-fluid footerline">
+        </div>
+
+        <div class="container-fluid footspacer">
+        </div>
+
+       
+        <div class=" col-11 container-fluid footlink">
+            <div class="experi">
+
+                 <a href="https://www.instagram.com/daynamiks/" class="insta  alignleft">Instagram</a>
+               
+                      <a href = "mailto: daynabrislane@gmail.com"class="email aligncenter" >Email</a>
+                    
+                        <a href="https://www.linkedin.com/in/dayna-brislane-5133a61ba/" class="email aligncenter  ">Linked In</a>
+                        
+                         <a href="https://www.linkedin.com/in/dayna-brislane-5133a61ba/" class="linkedin alignright">© Dayna coded this site</a>
+
+ </div>
+              
+
+    </div>
+  
+  
+    
+    
+    
+    </body>
+    
+   
+   
+    
+    </html>
